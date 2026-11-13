@@ -1,0 +1,26 @@
+{
+    "selected_model": "Linear SVM",
+    "selection_metric": "Fake-class F1-score",
+    "model_results": {
+        "Naive Bayes": {
+            "accuracy": 0.8023809523809524,
+            "fake_precision": 0.8263103802672148,
+            "fake_recall": 0.7657142857142857,
+            "fake_f1_score": 0.7948591201186357
+        },
+        "Logistic Regression": {
+            "accuracy": 0.8095238095238095,
+            "fake_precision": 0.8396029258098223,
+            "fake_recall": 0.7652380952380953,
+            "fake_f1_score": 0.8006975585450922
+        },
+        "Linear SVM": {
+            "accuracy": 0.8083333333333333,
+            "fake_precision": 0.8252134605725766,
+            "fake_recall": 0.7823809523809524,
+            "fake_f1_score": 0.8032265949645564
+        }
+    },
+    "dataset": "amazon_reviews.txt",
+    "training_date": "2026-11-13T13:12:06.884370"
+}
